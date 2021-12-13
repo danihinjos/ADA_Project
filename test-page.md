@@ -1,6 +1,6 @@
 ---
 title: Test Page
-layout: page
+layout: default
 ---
 
 # This is heading 1
