@@ -20,6 +20,40 @@ The perception and use of profanity depend on the situation and differ from pers
 
 # 6. What is the relationship between profanity and sentiment of the quotes?
 
+<div id="adaImage" align="center">
+    <br>
+    <img src="static/images/Ada_Marra.jpg" height="340" width="410">
+    <br>
+    <b>Ada</b> Marra, Swiss politician
+</div>
+
+
+<br>
+<footer style="background-color: #d32f2f">
+    <div class="container">
+        <div class="row ">
+            <div class="col text-white text-center">
+                <p>
+                    <br>
+                    Deniz Ira, Isabelle Pumford, Arthur Vignon & Robin Zbinden
+                    <br>
+                    <button id="ada"><b>ADA</b></button>, EPFL
+                    <br>
+                    <a href="https://github.com/ArthurVignon/ADA_project_RADI"><b>GitHub Repository</b></a>
+                    •
+                    <a href="https://github.com/alcarinn/alcarinn.github.io"> <b> Website Repository </b> </a>
+                    <br>
+                    <b>Theme </b>
+                    <a href="https://github.com/chibicode/duo">duo</a>
+                    <b>by </b>
+                    <a href="https://github.com/chibicode">Shu Uesugi</a>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 <a href="https://github.com/epfl-ada/ada-2021-project-k-beans" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
