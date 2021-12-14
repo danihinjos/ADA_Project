@@ -20,6 +20,7 @@ The perception and use of profanity depend on the situation and differ from pers
 
 # 6. What is the relationship between profanity and sentiment of the quotes?
 
+
 <div id="adaImage" align="center">
     <br>
     <img src="static/images/Ada_Marra.jpg" height="340" width="410">
