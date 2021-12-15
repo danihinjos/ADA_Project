@@ -14902,3 +14902,11 @@ figcaption {
 .fb_iframe_widget.fb-post, .fb_iframe_widget.fb-post * {
     max-width: 100% !important
 }
+
+.header-img {
+    background-color: purple;
+    /* background-image: url("https://previews.123rf.com/images/lineartestpilot/lineartestpilot1502/lineartestpilot150208097/36527967-retro-comic-book-style-cartoon-woman-screaming.jpg?fj=1"); */
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
