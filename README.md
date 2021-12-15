@@ -1,3 +1,5 @@
+<div id="header"><img src="assets/img/header.jpeg" width="400" height="200" /></div> 
+
 # 1. Introduction:
 
 ## Abstract:
