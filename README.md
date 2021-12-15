@@ -20,14 +20,18 @@ It seems that Twitter would, as it banned the user who posted it. Even though, a
 Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem ). Therefore, we decided to use a pre-trained machine learning model in order to identify obscene quotes.
 
 ## 1. Profanity in Quotebank
-People curse a lot. &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Just not in media.
+People curse a lot, just not in media.
 
 
 Quotebank is a dataset of ~150M quotes collected from different media articles. Observing the number of quotes our model identified as obscene can already lead us to our first conclusion:
 > Obscene quotes are not common in media.
-<p align="center"><iframe width="700" height="600" frameborder="0" scrolling="no" src="//plotly.com/~maculjak/14.embed"></iframe></p>
+<div align="center">
+<iframe width="266" height="400"  frameborder="0" scrolling="no"  align="left" src="//plotly.com/~k_beans/84.embed?showlink=false" ></iframe>
+<iframe width="266" height="400"  frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/89.embed?showlink=false"></iframe>
+<iframe width="266" height="400"  frameborder="0" scrolling="no" align="right" src="//plotly.com/~k_beans/3.embed?showlink=false"></iframe>
+</div>
 
-## 2. Let's zoom in 
+## 2. Zooming in 
 Profanity distribution
 
 ## 3. How does the use of profanity behave through time? 
@@ -42,14 +46,6 @@ Profanity distribution
 # 6. What is the relationship between profanity and sentiment of the quotes?
 
 
-<div id="adaImage" align="center">
-    <br>
-    <img src="static/images/Ada_Marra.jpg" height="340" width="410">
-    <br>
-    <b>Ada</b> Marra, Swiss politician
-</div>
-
-
 <br>
 <footer style="background-color: #d32f2f">
     <div class="container">
@@ -57,7 +53,7 @@ Profanity distribution
             <div class="col text-white text-center">
                 <p>
                     <br>
-                    Deniz Ira, Isabelle Pumford, Arthur Vignon & Robin Zbinden
+                    Marko Čuljak, Mauro Staver, Daniel Hinjos Garcia & Dewmini Sudara Marakkalage
                     <br>
                     <button id="ada"><b>ADA</b></button>, EPFL
                     <br>
