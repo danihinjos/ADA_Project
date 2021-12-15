@@ -17,14 +17,13 @@ Would you classify this statement as profanity?
 It seems that Twitter would, as it banned the user who posted it. Even though, a quick look at the wikipedia article for the [Great Tit](https://en.wikipedia.org/wiki/Great_tit "Great Tit") can easily explain the meaning of this statement.
 
 
-Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem ). Therefore, we decided to use a pre-trained machine learning model in order to identify obscene quotes.
+Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem "Scunthorpe problem"). Therefore, we decided to use a pre-trained machine learning model in order to identify obscene quotes.
 
 ## 1. Profanity in Quotebank
 People curse a lot, just not in media.
 
-
-Quotebank is a dataset of ~150M quotes collected from different media articles. Observing the number of quotes our model identified as obscene can already lead us to our first conclusion:
-> Obscene quotes are not common in media.
+Quotebank is a dataset of ~150M quotes collected from different media articles. By observing the number of quotes our model identified as obscene we can already reach our first conclusion:
+> Obscene quotes are not common in media articles.
 <div align="center">
 <iframe width="266" height="400"  frameborder="0" scrolling="no"  align="left" src="//plotly.com/~k_beans/84.embed?showlink=false" ></iframe>
 <iframe width="266" height="400"  frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/89.embed?showlink=false"></iframe>
