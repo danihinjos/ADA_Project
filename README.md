@@ -17,6 +17,7 @@ The naive approach in detecting profanity is to use a hard-coded list of curse w
 <!-- Futhermore, the same word can be considered obscene in one language but have a completely different meaning in another language. -->
 </div>
 
+
 >"Finally! A pair of great tits has moved into my birdhouse!"
 
 <div style="text-align: justify">
@@ -26,12 +27,14 @@ Would you classify this statement as profanity? It seems that Twitter would, as 
 Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem "Scunthorpe problem"). Therefore, we decided to use a pre-trained machine learning model in order to identify obscene quotes in our dataset.
 </div>
 
-## 1. Profanity in Quotebank
+<center> <h1>Profanity in Quotebank</h1> </center>
+
 <div style="text-align: justify">
 People curse a lot, just not in media.
 
 Quotebank is a dataset of ~150M quotes collected from different media articles. By observing the number of quotes our model identified as obscene we can already reach our first conclusion:
  </div>
+ 
  
 > Obscene quotes are not common in media articles.
 
@@ -41,19 +44,20 @@ Quotebank is a dataset of ~150M quotes collected from different media articles. 
 <iframe width="266" height="400"  frameborder="0" scrolling="no" align="right" src="//plotly.com/~k_beans/89.embed?showlink=false"></iframe>
 </div>
 
-## 2. Zooming in 
+## Zooming in 
 <div style="text-align: justify">
 <!-- We have uncensored all profanities by using a complex regex scheme which will allow us to to a fair analysis. -->
 Isolating the profane quotes out of Quotebank leaves us with 643,209 quotes, out of which 68% have censored profanities.
 Let's take a deep dive into this small subset of Quotebank.
 </div>
 
+
 > WARNING: Curse words ahead! 
 
 
 Profanity distribution
 
-### Does your mum or dad curse more? 
+## Does your mum or dad curse more? 
 <div style="text-align: justify">
 Well, it seems that around 72% of all profane quotes we found were spoken by a male speaker. Our analysis also shows that media articles are heavily biased towards featuring male speakers. Feminists are going to be all over this...
 </div>
