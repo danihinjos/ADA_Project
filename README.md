@@ -1,15 +1,50 @@
 # 1. Introduction:
 
-## Abstract:
-The perception and use of profanity depend on the situation and differ from person to person. While swearing is relatively common and sometimes even welcomed in a relaxed environment, the use of such language is mostly frowned upon in a workplace or public spaces. This is why we are not likely to encounter it while reading the news. Still, heated debates and unexpected events can inspire the appearance of obscene language even in more formal settings. To better understand the circumstances in which profanity appears in media, we will explore Quotebank, a large and heterogeneous dataset of quotes from media. We will focus mainly on obscene quotes identified by a machine learning model. Our main goal is to analyze the distribution of such quotations through time and to examine their presence with respect to the attributes of the speakers who uttered them and the media outlets who featured those speakers.
 
-<div id="container" style="min-width: 310px; height: 400px; margin: auto"></div>
+## Abstract
+The perception and use of profanity depend on the situation and differ from person to person. While swearing is relatively common and sometimes even welcomed in a relaxed environment, the use of such language is mostly frowned upon in a workplace or public spaces. This is why we are not likely to encounter it while reading the news. Still, heated debates and unexpected events can inspire the appearance of obscene language even in more formal settings. To better understand the circumstances in which profanity appears in media, we will explore Quotebank, a large and heterogeneous dataset of quotes extracted from media articles. We will analyze the distribution of obscene quotations through time and examine their presence with respect to the attributes of the speakers who uttered them and the media outlets who featured those speakers.
 
-## The databases
+<!-- <div id="container" style="min-width: 310px; height: 400px; margin: auto"></div> -->
+<!-- Furthermore, syntactically identical words can be considered obscene in one language but have a completely different meaning in another language. -->
+## What is Profanity?
+The dictionary offers a simple definition of the word 'profanity': Profanity is a type of language that includes dirty words and ideas.
 
-# 2. So, what is the overall distribution 
+The naive approach in detecting profanity is to use a hard-coded list of curse words. However, there are glaring issues with this approach as we are restricted by the words in our list and are completely ignoring the context surounding these words. 
+<!-- Futhermore, the same word can be considered obscene in one language but have a completely different meaning in another language. -->
 
-# 3. How does the use of profanity behave through time? 
+>"Finally! A pair of great tits has moved into my birdhouse!"
+
+Would you classify this statement as profanity? 
+
+It seems that Twitter would, as it banned the user who posted it. Even though, a quick look at the wikipedia article for the [Great Tit](https://en.wikipedia.org/wiki/Great_tit "Great Tit") can easily explain the meaning of this statement.
+
+
+Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem "Scunthorpe problem"). Therefore, we decided to use a pre-trained machine learning model in order to identify obscene quotes.
+
+## 1. Profanity in Quotebank
+People curse a lot, just not in media.
+
+Quotebank is a dataset of ~150M quotes collected from different media articles. By observing the number of quotes our model identified as obscene we can already reach our first conclusion:
+> Obscene quotes are not common in media articles.
+<div align="center">
+<iframe width="266" height="400"  frameborder="0" scrolling="no"  align="left" src="//plotly.com/~k_beans/84.embed?showlink=false" ></iframe>
+<iframe width="266" height="400"  frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/3.embed?showlink=false"></iframe>
+<iframe width="266" height="400"  frameborder="0" scrolling="no" align="right" src="//plotly.com/~k_beans/89.embed?showlink=false"></iframe>
+</div>
+
+## 2. Zooming in 
+<!-- We have uncensored all profanities by using a complex regex scheme which will allow us to to a fair analysis. -->
+Isolating the profane quotes out of Quotebank leaves us with 643,209 quotes, out of which 68% have censored profanities.
+Let's take a deep dive into this small subset of Quotebank.
+> WARNING: Curse words ahead! 
+
+Profanity distribution
+
+### Does your mum or dad curse more? 
+Well, it seems that around 72% of all profane quotes we found were spoken by a male speaker. Our analysis also shows that media articles are heavily biased towards featuring male speakers. Feminists are going to be all over this...
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe>
+
+## 3. How does the use of profanity behave through time? 
 ## Can we relate the use of profanity to certain events?
 
 # 4. Which speakers are most likely to use obscene language?
