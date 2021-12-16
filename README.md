@@ -34,13 +34,33 @@ Quotebank is a dataset of ~150M quotes collected from different media articles. 
 <!-- We have uncensored all profanities by using a complex regex scheme which will allow us to to a fair analysis. -->
 Isolating the profane quotes out of Quotebank leaves us with 643,209 quotes, out of which 68% have censored profanities.
 Let's take a deep dive into this small subset of Quotebank.
-> WARNING: Curse words ahead! 
+> **WARNING:** Curse words ahead! 
 
-Profanity distribution
+### People's Choice Award for favorite curse word goes to...
+<details>
+  <summary>Click to reveal</summary>
+  Fuck<br>
+  Well, what did you expect?
+</details>
 
 ### Does your mum or dad curse more? 
-Well, it seems that around 72% of all profane quotes we found were spoken by a male speaker. Our analysis also shows that media articles are heavily biased towards featuring male speakers. Feminists are going to be all over this...
+It seems that around 72% of all profane quotes we found were spoken by a male speaker. On the other hand, taking into consideration the relative frequenices of profane quotes with respect to all quotes spoken by a specific gender, it seems that female speakers are more prone to using profane language. Our analysis also shows that media articles are heavily biased towards featuring male speakers. Feminists are going to be all over this...
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe>
+This plot doesn't really do justice to other genders so let's take a look at the average profanity for each gender.
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/48.embed?showlink=false"></iframe>
+Wow! The genderfluids are killing it.<br><br>
+On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language.
+<!-- Back to mum and dad, the plot also suggests that females use more profane language than males. Ladies you gotta chill. -->
+
+<!-- ### Strippers vs. Rappers -->
+<!-- MCs vs Strippers -->
+### The Mic or the Stripping pole
+If we had to guess we would say that quotes by rappers would contain most profane language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
+> "quote"
+
+That being said, MCs are not that far behind strippers. Intuition, check!
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/46.embed?showlink=false"></iframe>
+
 
 ## 3. How does the use of profanity behave through time? 
 ## Can we relate the use of profanity to certain events?
