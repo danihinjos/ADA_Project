@@ -1,10 +1,10 @@
 <center> <h1>Introduction</h1> </center>
 
-
-## Abstract
 <div style="text-align: justify">
+## Abstract
+
 The perception and use of profanity depend on the situation and differ from person to person. While swearing is relatively common and sometimes even welcomed in a relaxed environment, the use of such language is mostly frowned upon in a workplace or public spaces. This is why we are not likely to encounter it while reading the news. Still, heated debates and unexpected events can inspire the appearance of obscene language even in more formal settings. To better understand the circumstances in which profanity appears in media, we will explore Quotebank, a large and heterogeneous dataset of quotes extracted from media articles. We will analyze the distribution of obscene quotations through time and examine their presence with respect to the attributes of the speakers who uttered them and the media outlets who featured those speakers.
-</div>
+
 
 <!-- <div id="container" style="min-width: 310px; height: 400px; margin: auto"></div> -->
 <!-- Furthermore, syntactically identical words can be considered obscene in one language but have a completely different meaning in another language. -->
@@ -16,12 +16,10 @@ The naive approach in detecting profanity is to use a hard-coded list of curse w
 
 >"Finally! A pair of great tits has moved into my birdhouse!"
 
-Would you classify this statement as profanity? 
-
-It seems that Twitter would, as it banned the user who posted it. Even though, a quick look at the wikipedia article for the [Great Tit](https://en.wikipedia.org/wiki/Great_tit "Great Tit") can easily explain the meaning of this statement.
+Would you classify this statement as profanity? It seems that Twitter would, as the user who posted it was banned from the platform, even though a quick look at the wikipedia article for the [Great Tit](https://en.wikipedia.org/wiki/Great_tit "Great Tit") can easily explain the meaning of this statement.
 
 
-Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem "Scunthorpe problem"). Therefore, we decided to use a pre-trained machine learning model in order to identify obscene quotes.
+Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem "Scunthorpe problem"). Therefore, we decided to use a pre-trained machine learning model in order to identify obscene quotes in our dataset.
 
 ## 1. Profanity in Quotebank
 People curse a lot, just not in media.
@@ -56,7 +54,7 @@ Well, it seems that around 72% of all profane quotes we found were spoken by a m
 ## How does it relate to the nature of the sources and their role
 
 # 6. What is the relationship between profanity and sentiment of the quotes?
-
+</div>
 
 <div id="adaImage" align="center">
     <br>
