@@ -47,19 +47,6 @@
     <div class="header-img"></div>
     <main class="measure-wide center ph3 pt5 pb6">
         {% if is_home %}
-        <h1 class="mt0 mb4">
-            {% else %}
-            <h2 class="mt0 mb5">
-                {% endif %}
-                <a href="{{ "/" | relative_url }}" class="no-underline bg-{{ site.brand_color }}">
-                    {{site.title}}
-                </a>
-                {% if is_home %}
-        </h1>
-        {% else %}
-        </h2>
-        {% endif %}
-        {% if is_home %}
         <section class="pv2">
             {{ content }}
         </section>
