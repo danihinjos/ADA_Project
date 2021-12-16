@@ -16,6 +16,7 @@ The dictionary offers a simple definition of the word 'profanity': Profanity is 
 The naive approach in detecting profanity is to use a hard-coded list of curse words. However, there are glaring issues with this approach as we are restricted by the words in our list and are completely ignoring the context surounding these words. 
 <!-- Futhermore, the same word can be considered obscene in one language but have a completely different meaning in another language. -->
 </div>
+
 >"Finally! A pair of great tits has moved into my birdhouse!"
 
 <div style="text-align: justify">
@@ -31,6 +32,7 @@ People curse a lot, just not in media.
 
 Quotebank is a dataset of ~150M quotes collected from different media articles. By observing the number of quotes our model identified as obscene we can already reach our first conclusion:
  </div>
+ 
 > Obscene quotes are not common in media articles.
 
 <div align="center">
@@ -44,6 +46,7 @@ Quotebank is a dataset of ~150M quotes collected from different media articles. 
 <!-- We have uncensored all profanities by using a complex regex scheme which will allow us to to a fair analysis. -->
 Isolating the profane quotes out of Quotebank leaves us with 643,209 quotes, out of which 68% have censored profanities.
 Let's take a deep dive into this small subset of Quotebank.
+</div>
 
 > WARNING: Curse words ahead! 
 
