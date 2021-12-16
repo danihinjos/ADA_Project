@@ -26,12 +26,21 @@ Quotebank is a dataset of ~150M quotes collected from different media articles. 
 > Obscene quotes are not common in media articles.
 <div align="center">
 <iframe width="266" height="400"  frameborder="0" scrolling="no"  align="left" src="//plotly.com/~k_beans/84.embed?showlink=false" ></iframe>
-<iframe width="266" height="400"  frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/89.embed?showlink=false"></iframe>
-<iframe width="266" height="400"  frameborder="0" scrolling="no" align="right" src="//plotly.com/~k_beans/3.embed?showlink=false"></iframe>
+<iframe width="266" height="400"  frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/3.embed?showlink=false"></iframe>
+<iframe width="266" height="400"  frameborder="0" scrolling="no" align="right" src="//plotly.com/~k_beans/89.embed?showlink=false"></iframe>
 </div>
 
 ## 2. Zooming in 
+<!-- We have uncensored all profanities by using a complex regex scheme which will allow us to to a fair analysis. -->
+Isolating the profane quotes out of Quotebank leaves us with 643,209 quotes, out of which 68% have censored profanities.
+Let's take a deep dive into this small subset of Quotebank.
+> WARNING: Curse words ahead! 
+
 Profanity distribution
+
+### Does your mum or dad curse more? 
+Well, it seems that around 72% of all profane quotes we found were spoken by a male speaker. Our analysis also shows that media articles are heavily biased towards featuring male speakers. Feminists are going to be all over this...
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe>
 
 ## 3. How does the use of profanity behave through time? 
 ## Can we relate the use of profanity to certain events?
