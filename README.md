@@ -22,13 +22,18 @@ Identifying profanity in text has proved to be a rather difficult task which, if
 ## 1. Profanity in Quotebank
 People curse a lot, just not in media.
 
-Quotebank is a dataset of ~150M quotes collected from different media articles. By observing the number of quotes our model identified as obscene we can already reach our first conclusion:
+Quotebank is a dataset of ~110M quotes collected from different media articles. By observing the number of quotes our model identified as obscene we can already reach our first conclusion:
 > Obscene quotes are not common in media articles.
 <div align="center">
 <iframe width="266" height="400"  frameborder="0" scrolling="no"  align="left" src="//plotly.com/~k_beans/84.embed?showlink=false" ></iframe>
 <iframe width="266" height="400"  frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/3.embed?showlink=false"></iframe>
 <iframe width="266" height="400"  frameborder="0" scrolling="no" align="right" src="//plotly.com/~k_beans/89.embed?showlink=false"></iframe>
 </div>
+
+<br>
+The frequency distribution of quotes through time is mostly uniform. The sharp drops are caused by missing data, and the slight drop on March and April of 2020 can be explained by Covid circumstances.
+
+<iframe width="900" height="400" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/5.embed?showlink=false"></iframe>
 
 ## 2. Zooming in 
 <!-- We have uncensored all profanities by using a complex regex scheme which will allow us to to a fair analysis. -->
@@ -50,29 +55,39 @@ This plot doesn't really do justice to other genders so let's take a look at the
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/48.embed?showlink=false"></iframe>
 Wow! The genderfluids are killing it.<br><br>
 On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language.
+<!-- TODO: link paper -->
 <!-- Back to mum and dad, the plot also suggests that females use more profane language than males. Ladies you gotta chill. -->
 
 <!-- ### Strippers vs. Rappers -->
 <!-- MCs vs Strippers -->
 ### The Mic or the Stripping pole
-If we had to guess we would say that quotes by rappers would contain most profane language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
+If we had to guess we would say that quotes by rappers would contain most obscene language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
 > "quote"
 
 That being said, MCs are not that far behind strippers. Intuition, check!
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/46.embed?showlink=false"></iframe>
 
+<!-- Monday F#@k you! -->
+### F#@k it's Monday!
+We have grouped quotes by the day of the week their respective articles were posted on and computed the avarage profanity score of each group. Surprise, surprise - Monday takes the lead with the highest average. [This paper](https://publications.aap.org/pediatrics/article-abstract/128/5/867/30917/Profanity-in-Media-Associated-With-Attitudes-and?redirectedFrom=fulltext "Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression") suggests that people become more hostile when exposed to profanity in media. Maybe that's the reason why people are so grumpy on Mondays, except, you know, having to go to work again.
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/9.embed?showlink=false"></iframe>
 
-## 3. How does the use of profanity behave through time? 
-## Can we relate the use of profanity to certain events?
 
-# 4. Which speakers are most likely to use obscene language?
-## Are there any differences with respect to occupation, gender, or age of the speaker?
+<!-- ### Drop the mic -->
+### The MCs are back
+Taking a look at individual speakers with highest average profanity, we can notice that most of them are rappers!
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/42.embed?showlink=false"></iframe>
 
-# 5. Which media sources feature vulgar speakers?
-## How does it relate to the nature of the sources and their role
+<!-- # 4. Which speakers are most likely to use obscene language? -->
+<!-- ## Are there any differences with respect to occupation, gender, or age of the speaker? -->
 
-# 6. What is the relationship between profanity and sentiment of the quotes?
+<!-- # 5. Which media sources feature vulgar speakers? -->
+<!-- ## How does it relate to the nature of the sources and their role -->
 
+<!-- # 6. What is the relationship between profanity and sentiment of the quotes? -->
+
+### References
+Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression. Pediatrics November 2011; 128 (5): 867–872. 10.1542/peds.2011-1062
 
 <br>
 <footer style="background-color: #d32f2f">
