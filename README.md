@@ -15,9 +15,10 @@ The dictionary offers a simple definition of the word 'profanity': Profanity is 
 
 The naive approach in detecting profanity is to use a hard-coded list of curse words. However, there are glaring issues with this approach as we are restricted by the words in our list and are completely ignoring the context surounding these words. 
 <!-- Futhermore, the same word can be considered obscene in one language but have a completely different meaning in another language. -->
-
+</div>
 >"Finally! A pair of great tits has moved into my birdhouse!"
 
+<div style="text-align: justify">
 Would you classify this statement as profanity? It seems that Twitter would, as the user who posted it was banned from the platform, even though a quick look at the wikipedia article for the [Great Tit](https://en.wikipedia.org/wiki/Great_tit "Great Tit") can easily explain the meaning of this statement.
 
 
@@ -29,8 +30,9 @@ Identifying profanity in text has proved to be a rather difficult task which, if
 People curse a lot, just not in media.
 
 Quotebank is a dataset of ~150M quotes collected from different media articles. By observing the number of quotes our model identified as obscene we can already reach our first conclusion:
+ </div>
 > Obscene quotes are not common in media articles.
-</div>
+
 <div align="center">
 <iframe width="266" height="400"  frameborder="0" scrolling="no"  align="left" src="//plotly.com/~k_beans/84.embed?showlink=false" ></iframe>
 <iframe width="266" height="400"  frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/3.embed?showlink=false"></iframe>
@@ -42,16 +44,19 @@ Quotebank is a dataset of ~150M quotes collected from different media articles. 
 <!-- We have uncensored all profanities by using a complex regex scheme which will allow us to to a fair analysis. -->
 Isolating the profane quotes out of Quotebank leaves us with 643,209 quotes, out of which 68% have censored profanities.
 Let's take a deep dive into this small subset of Quotebank.
+
 > WARNING: Curse words ahead! 
-</div>
+
 
 Profanity distribution
 
 ### Does your mum or dad curse more? 
 <div style="text-align: justify">
 Well, it seems that around 72% of all profane quotes we found were spoken by a male speaker. Our analysis also shows that media articles are heavily biased towards featuring male speakers. Feminists are going to be all over this...
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe>
 </div>
+    
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe>
+
 
 ## 3. How does the use of profanity behave through time? 
 ## Can we relate the use of profanity to certain events?
