@@ -119,6 +119,7 @@ A quick trip back to the stripper club: most stripper quotes belong to Cardi B, 
 The most quoted speaker in Quotebank is the former American president Donald Trump. According to a popular linguistic study<sup>[?]</sup>, Trump speaks at a fourth-grade level. Considering this and the amount of Trump quotes we had at our disposal, we couldn't miss the opportunity to analyse how dirty Donald's quotes are. 
 
 ## 3. Media outlets
+It is also very interesting to see which media outlets feature the most profanity in their content. Let’s first take a look at the most popular ones!  As expected, unofficial sites directed for a regular public such as Yahoo have high profanity rates (fun fact, [Yahoo was actually placed in a ‘vulgar content’ list by China back in 2009](https://www.wsj.com/articles/BL-DGB-8666)). However, what is most surprising is to see high scores as well for official and mainstream journals and news sites, such as Fox News or The New Zealand Herald. The top profanity rate is held by Daily Mirror, a sensationalist journal self-proclaimed Heart of Britain. British people, the words speak for themselves...
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/34.embed?showlink=false"></iframe>
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/38.embed?showlink=false"></iframe>
 ### References
