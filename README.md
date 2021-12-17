@@ -61,7 +61,7 @@ Identifying profanity in text has proved to be a rather difficult task which, if
 ## 1. Profanity in Quotebank
 People curse a lot, just not in media.
 
-Quotebank is a dataset of ~110M quotes collected from different media articles. By observing the number of quotes that our model identified as obscene we can already reach our first conclusion:
+Quotebank is a dataset of ~110M quotes collected from different media articles. By observing the distribution of the obscene quotes identified by our models we can already reach some conclusions:
 > Obscene quotes are not common in media articles.
 <div align="center">
 <iframe width="266" height="400"  frameborder="0" scrolling="no"  align="left" src="//plotly.com/~k_beans/84.embed?showlink=false" ></iframe>
