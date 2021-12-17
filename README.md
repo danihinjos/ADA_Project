@@ -157,11 +157,15 @@ The most quoted speaker in Quotebank is the former American president Donald Tru
 <br>
 </div>
 
+It is also very interesting to see which media outlets feature the most profanity in their content. Let’s first take a look at the most popular ones!  As expected, unofficial sites directed for a regular public such as Yahoo have high profanity rates (fun fact, [Yahoo was actually placed in a ‘vulgar content’ list by China back in 2009](https://www.wsj.com/articles/BL-DGB-8666)). However, what is most surprising is to see high scores as well for official and mainstream journals and news sites, such as Fox News or The New Zealand Herald. The top profanity rate is held by Daily Mirror, a sensationalist journal self-proclaimed Heart of Britain. British people, the words speak for themselves...
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/34.embed?showlink=false"></iframe>
+
+But not so fast! Not all sites featuring profanity need to be vulgar. It seems that in many of them, most of the profane content is censored, which usually can act in favor of the site’s public image and credibility. However, this is a hypothesis difficult to assess. For example, by observing censorship rates, at first glance it is somehow surprising that the lowest ones come from globally renewed sites such as The New York Times or The Guardian, whereas other famous gossip magazines such as OK! Magazine feature the highest ones. This information by itself provides limited insights, but by applying common sense it is normal that gossip journals have more profanity to be censored that official news outlets.
+
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/38.embed?showlink=false"></iframe>
 
 ## Conclusion
-Quotebank is quite a heterogeneus dataset so there is still room for a lot of research. We have presented our most interesting insights.
+<!-- Quotebank is quite a heterogeneus dataset so there is still room for a lot of research. We have presented our most interesting insights. -->
 
 ### References
 Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression. Pediatrics November 2011; 128 (5): 867–872. 10.1542/peds.2011-1062
