@@ -77,7 +77,7 @@ The frequency distribution of quotes through time is mostly uniform. The sharp d
 
 ## 2. Zooming in 
 <!-- We have uncensored all profanities by using a complex regex scheme which will allow us to to a fair analysis. -->
-Isolating the profane quotes out of Quotebank leaves us with 643,209 quotes, out of which 68% have censored profanities.
+Isolating the profane quotes out of Quotebank leaves us with 1,146,168 quotes, out of which 68% have censored profanities.
 Let's take a deep dive into this small subset of Quotebank.
 > **WARNING:** Curse words ahead! 
 
@@ -104,7 +104,7 @@ These donut plots doesn't really do justice to other genders so let's take a loo
 <!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed"></iframe> -->
 Wow! The genderfluids are killing it.<br><br>
 On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies<sup>[1]</sup> suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language. We decided to further explore this hypothesis by computing average aggresion scores for each gender category. 
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/46.embed"></iframe>
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/46.embed?showlink=false"></iframe>
 One can argue that this plot supports our hypothesis, but due to large confidence intervals, we can not make any significant claims. We still encourage readers to be nice to people associated with uncommon genders.
 <!-- TODO: link paper -->
 <!-- Back to mum and dad, the plot also suggests that females use more profane language than males. Ladies you gotta chill. -->
@@ -160,10 +160,11 @@ Media outlets play a very significant role in keeping everyone updated about the
 ### You are what you read
 The interesting thing about quotations is that media outlets can't alter them without losing credibility. Therefore, even if a certain media outlet has a policy against profanity, they must not alter quotations. The best they can do is censor them or not publish them at all. 
 
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/34.embed?showlink=false"></iframe>
+
 Quotebank data suggests that popular media outlets with a high number of quotations don't publish many profanities. Indeed, only 1-2% of quotations published by each popular outlet were considered as profane by our model. This observation, combined with relatively high censorship rates, implies a fairly strict policy against profanity among popular outlets.
 
 On the other hand, media outlets with highest censorship rates are mostly oriented around fashion or the entertainment industry (especially hip-hop culture). Outlets with the highest profanity rate are also mostly hip-hop related! All evidence points to a single conslusion: Hip-Hopers really got no chill...
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/34.embed?showlink=false"></iframe>
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/38.embed?showlink=false"></iframe>
 
 ## Conclusion
