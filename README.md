@@ -94,7 +94,7 @@ We have grouped quotes by the day of the week their respective articles were pos
 <div>
 <select style="width: 50%; float:center" class="js-example-basic-single" name="state">
 </select>
-<p style="float:right" id="score_label">score</p>
+<p style="width: 10%; float:right" id="score_label">score</p><p style="float:right">Average score:&nbsp;&nbsp;</p>
 </div>
 
 <!-- ### Drop the mic -->
