@@ -120,29 +120,28 @@ We have grouped quotes by the day of the week their respective articles were pos
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/9.embed?showlink=false"></iframe>
 
 ## 2. Individual speakers
-We will now turn our attention to individual speaker analysis. We have prepared a simple search engine which allows you to search for your favorite speakers and see their average profanity score. We have only included speakers with more than 5000 quotes so that the average profanity metric remains reasonable. After filtering, there were still over 1000 speakers left so go ahead and search on!
+We will now turn our attention to individual speaker analysis. We have prepared a simple search engine which allows you to search for your favorite speakers and see their average profanity score. We have only included speakers with more than 5000 quotes so that the average profanity metric remains reasonable. After filtering, there were still over 1000 speakers left so feel free to play around.
 <div>
 <select style="width: 30%;" class="js-example-basic-single" name="speaker">
 </select>
 <code>
 <br>
 <div style="margin-top: 10px; white-space: pre-wrap;" id="score_label"></div>
-<br>
 </code>
 </div>
 <!-- ### Drop the mic -->
 <!-- ### The return of the MCs -->
 ### The return of the MCs
-Observing the general distribution of most quoted speakers, we can see some familiar names. The profane quotes observed by Pope Francis were a bit conserning but a deeper analysis shows that they either contain the word 'hell' or are mostly false positives. Taking a look at speakers with highest average profanity, we can notice that most of them are rappers. The MCs are back! <br>
-A quick trip back to the strip club: most stripper quotes belong to Cardi B, who pursued a career as an exotic dancer before rising to fame as a rapper. This further explains the domination of strippers over rappers as a most vulgar occupation.
+Observing the general distribution of most quoted speakers, we can see some familiar names. The profane quotes observed by Pope Francis were a bit conserning but a deeper analysis shows that they either contain the word 'hell' or are mostly false positives. Taking a look at speakers with highest percentage of profanity quotations, we can notice that most of them are rappers. The MCs are back! <br><br>
+A quick trip back to the strip club: most stripper quotes belong to Cardi B, who pursued a career as an exotic dancer before rising to fame as a rapper. This further explains the domination of strippers over rappers as the most vulgar occupation.
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/19.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/216.embed?showlink=false"></iframe> -->
 
-### Orange Case Study
+### Orange case study
 The most quoted speaker in Quotebank is the former American president Donald Trump. According to a popular linguistic study<sup>[?]</sup>, Trump speaks at a fourth-grade level. Considering this and the amount of Trump quotes we had at our disposal, we couldn't miss the opportunity to analyse how dirty Donald's quotes are. 
 
 ## 3. Media outlets
-
+Media outlets play a very significant role in keeping everyone updated about the various events around the world. Before jumping into the general analysis of profanity in media outlets, please take a moment to use the search bar down below to find your favorite media outlet. Then proceed to the general analysis and compare your media outlet with the rest.
 <div>
 <select style="width: 30%;" class="js-example-basic-single-media" name="media">
 </select>
@@ -152,19 +151,23 @@ The most quoted speaker in Quotebank is the former American president Donald Tru
 <div style="white-space: pre-wrap;" id="media_censored"></div>
 <div style="white-space: pre-wrap;" id="media_profane"></div>
 <div style="white-space: pre-wrap;" id="media_avg_prof"></div>
-<br>
 </code>
-<br>
 </div>
 
-It is also very interesting to see which media outlets feature the most profanity in their content. Let’s first take a look at the most popular ones!  As expected, unofficial sites directed for a regular public such as Yahoo have high profanity rates (fun fact, [Yahoo was actually placed in a ‘vulgar content’ list by China back in 2009](https://www.wsj.com/articles/BL-DGB-8666)). However, what is most surprising is to see high scores as well for official and mainstream journals and news sites, such as Fox News or The New Zealand Herald. The top profanity rate is held by Daily Mirror, a sensationalist journal self-proclaimed Heart of Britain. British people, the words speak for themselves...
+### You are what you read
+The interesting thing about quotations is that media outlets can't alter them without losing credibility. Therefore, even if a certain media outlet has a policy against profanity, they must not alter quotations. The best they can do is censor them or not publish them at all. 
+
+Quotebank data suggests that popular media outlets with a high number of quotations don't publish many profanities. Indeed, only 1-2% of quotations published by each popular outlet were considered as profane by our model. This observation, combined with relatively high censorship rates, implies a fairly strict policy against profanity among popular outlets.
+
+On the other hand, media outlets with highest censorship rates are mostly oriented around fashion or the entertainment industry (especially hip-hop culture). Outlets with the highest profanity rate are also mostly hip-hop related! All evidence points to a single conslusion: Hip-Hopers really got no chill...
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/34.embed?showlink=false"></iframe>
-
-But not so fast! Not all sites featuring profanity need to be vulgar. It seems that in many of them, most of the profane content is censored, which usually can act in favor of the site’s public image and credibility. However, this is a hypothesis difficult to assess. For example, by observing censorship rates, at first glance it is somehow surprising that the lowest ones come from globally renewed sites such as The New York Times or The Guardian, whereas other famous gossip magazines such as OK! Magazine feature the highest ones. This information by itself provides limited insights, but by applying common sense it is normal that gossip journals have more profanity to be censored that official news outlets.
-
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/38.embed?showlink=false"></iframe>
 
 ## Conclusion
+Most of the insights from our data story can be summarized by the following sentence: don't let your kids read hip-hop magazines
+Strippers, Hip-Hop, Genderfluids and Mr. Trump. It's been a wild ride.  
+Most of the insights from our data story can be summarized by the following sentence: stay away from Cardi B on mondays, don't let your kids read hip-hop magazines and  
+Don't let your kids read hip-hop magazines, especially on mondays. Respect non-binary genders. 
 <!-- Quotebank is quite a heterogeneus dataset so there is still room for a lot of research. We have presented our most interesting insights. -->
 
 ### References
