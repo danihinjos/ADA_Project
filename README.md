@@ -103,8 +103,7 @@ It seems that around 72% of all profane quotes we found were spoken by a male sp
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe> -->
 These donut plots doesn't really do justice to other genders beyond the binary ones, so let's take a look at the average profanity for some of the gender identities registered in the dataset.
 <br>
-
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed?showlink=false"></iframe>
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/242.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed"></iframe> -->
 Wow! The genderfluids are killing it.<br><br>
 On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies<sup>[1]</sup> suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language. We decided to further explore this hypothesis by computing average aggresion scores for each gender category. 
@@ -116,11 +115,8 @@ One can argue that this plot supports our hypothesis, but due to large confidenc
 <!-- ### Strippers vs. Rappers -->
 <!-- MCs vs Strippers -->
 ### The Mic or the Stripping pole
-If we had to guess, we would say that quotes by rappers would contain the most obscene language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
-> "quote"
-That being said, MCs are not that far behind strippers. Intuition, check!
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/46.embed?showlink=false"></iframe>
-
+If we had to guess, we would say that quotes by rappers would contain the most obscene language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers. That being said, MCs take the first place if we only consider speakers with more than 500 quotes. Intuition, check!
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/244.embed?showlink=false"></iframe>
 <!-- Monday F#@k you! -->
 ### F#@k it's Monday!
 We have grouped quotes by the day of the week their respective articles were posted on and computed the avarage profanity score of each group. Surprise, surprise - Monday takes the lead with the highest average. [This paper](https://publications.aap.org/pediatrics/article-abstract/128/5/867/30917/Profanity-in-Media-Associated-With-Attitudes-and?redirectedFrom=fulltext "Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression")<sup>[1]</sup> suggests that people become more hostile when exposed to profanity in media. Maybe that's the reason why people are so grumpy on Mondays, except, you know, having to go to work again.
@@ -145,7 +141,7 @@ A quick trip back to the strip club: most stripper quotes belong to Cardi B, who
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/216.embed?showlink=false"></iframe> -->
 
 ### Orange case study
-The most quoted speaker in Quotebank is the former American president Donald Trump. According to a popular linguistic study<sup>[?]</sup>, Trump speaks at a fourth-grade level. Considering this and the amount of Trump quotes we had at our disposal, we couldn't miss the opportunity to analyse how dirty Donald's quotes are. 
+The most quoted speaker in Quotebank is the former American president Donald Trump. According to a popular linguistic study<sup>[?]</sup>, Trump speaks at a fourth-grade level. Considering this and the amount of Trump quotes we had at our disposal, we couldn't miss the opportunity to analyse how dirty Donald's quotes are.
 
 ## 3. Media outlets
 Media outlets play a very significant role in keeping everyone updated about the various events around the world. Before jumping into the general analysis of profanity in media outlets, please take a moment to use the search bar down below to find your favorite media outlet. Then proceed to the general analysis and compare your media outlet with the rest.
