@@ -85,8 +85,8 @@ Let's take a deep dive into this small subset of Quotebank.
   <summary>Click to reveal</summary>
   <b>Hell</b><br>
   <!-- I bet you expected the F word... -->
-  Not quite what you expected huh? The word 'Hell' has x occurences in Quotebank, meaning it appears in around y% of all profane quotes which our model identified. The image bellow demonstrates all major obscene words found in Quotebank, where word's boldness indicates it's occurence frequency. Notice that less obscene words are more frequent which is understandable as they are more likely to be published in media articles. 
-  <br>
+  Not quite what you expected huh? The word 'Hell' has around 130K occurences in Quotebank, meaning it appears in around 11% of all profane quotes which our model identified. The image bellow demonstrates all major obscene words found in Quotebank, where word's boldness indicates it's occurence frequency. Notice that less obscene words are more frequent which is understandable as they are more likely to be published in media articles. 
+  <br><br> //131k
  <img  style="display: block; margin-left: auto; margin-right: auto;" src="data/word_map.jpeg" alt="Obscene words">
 </details>
 
@@ -167,24 +167,16 @@ On the other hand, media outlets with highest censorship rates are mostly orient
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/38.embed?showlink=false"></iframe>
 
 ## Conclusion
-Most of the insights from our data story can be summarized by the following sentence: don't let your kids read hip-hop magazines
-Strippers, Hip-Hop, Genderfluids and Mr. Trump. It's been a wild ride.  
-Most of the insights from our data story can be summarized by the following sentence: stay away from Cardi B on mondays, don't let your kids read hip-hop magazines and  
-Don't let your kids read hip-hop magazines, especially on mondays. Respect non-binary genders. 
-<!-- Quotebank is quite a heterogeneus dataset so there is still room for a lot of research. We have presented our most interesting insights. -->
+Our journey through profanity has taken a weird and funny course. We have presented our most interesting insights but Quotebank is a very heterogeneus dataset so there is still room for a lot of research.<br><br>
+We can summarize our data story through the following points:
+> * Obscene quotes are not common in media articles
+> * Respect non-binary genders
+> * Take it easy on Mondays
+> * Consider removing Cardi B from your Spotify
+> * Don't let your kids read Hip-Hop magazines
 
 ### References
 Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression. Pediatrics November 2011; 128 (5): 867–872. 10.1542/peds.2011-1062
-
-
-<!-- # 4. Which speakers are most likely to use obscene language? -->
-<!-- ## Are there any differences with respect to occupation, gender, or age of the speaker? -->
-
-
-<!-- # 5. Which media sources feature vulgar speakers? -->
-<!-- ## How does it relate to the nature of the sources and their role -->
-
-<!-- # 6. What is the relationship between profanity and sentiment of the quotes? -->
 
 <br>
 <footer style="background-color: #d32f2f">
@@ -197,9 +189,9 @@ Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in
                     <br>
                     <button id="ada"><b>ADA</b></button>, EPFL
                     <br>
-                    <a href="https://github.com/ArthurVignon/ADA_project_RADI"><b>GitHub Repository</b></a>
+                    <a href="https://github.com/epfl-ada/ada-2021-project-k-beans"><b>GitHub Repository</b></a>
                     •
-                    <a href="https://github.com/alcarinn/alcarinn.github.io"> <b> Website Repository </b> </a>
+                    <a href="https://github.com/danihinjos/ADA_Project"> <b> Website Repository </b> </a>
                     <br>
                     <b>Theme </b>
                     <a href="https://github.com/chibicode/duo">duo</a>
