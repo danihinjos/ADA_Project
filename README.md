@@ -66,7 +66,7 @@ Let's take a deep dive into this small subset of Quotebank.
   <!-- I bet you expected the F word... -->
   Not quite what you expected huh? The word 'Hell' has x occurences in Quotebank, meaning it appears in around y% of all profane quotes which our model identified. The image bellow demonstrates all major obscene words found in Quotebank, where word's boldness indicates it's occurence frequency. Notice that less obscene words are more frequent which is understandable as they are more likely to be published in media articles. 
   <br>
- <img  src="data/word_map.jpeg" alt="Obscene words">
+ <img  style="display: block; margin-left: auto; margin-right: auto;" src="data/word_map.jpeg" alt="Obscene words">
 </details>
 
 
@@ -81,7 +81,9 @@ These donut plots doesn't really do justice to other genders so let's take a loo
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed"></iframe> -->
 Wow! The genderfluids are killing it.<br><br>
-On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language.
+On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies<sup>[1]</sup> suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language. We decided to further explore this hypothesis by computing average aggresion scores for each gender category. Unfortunately, due to wide
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/46.embed"></iframe>
+One can argue that this plot supports our hypothesis, but due to large confidence intervals, we can not make any significant claims. We still encourage readers to be nice to people associated with uncommon genders.
 <!-- TODO: link paper -->
 <!-- Back to mum and dad, the plot also suggests that females use more profane language than males. Ladies you gotta chill. -->
 
@@ -90,32 +92,31 @@ On the serious note, it seems that speakers associated with more uncommon gender
 ### The Mic or the Stripping pole
 If we had to guess we would say that quotes by rappers would contain most obscene language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
 > "quote"
-
 That being said, MCs are not that far behind strippers. Intuition, check!
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/46.embed?showlink=false"></iframe>
 
 <!-- Monday F#@k you! -->
 ### F#@k it's Monday!
-We have grouped quotes by the day of the week their respective articles were posted on and computed the avarage profanity score of each group. Surprise, surprise - Monday takes the lead with the highest average. [This paper](https://publications.aap.org/pediatrics/article-abstract/128/5/867/30917/Profanity-in-Media-Associated-With-Attitudes-and?redirectedFrom=fulltext "Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression") suggests that people become more hostile when exposed to profanity in media. Maybe that's the reason why people are so grumpy on Mondays, except, you know, having to go to work again.
+We have grouped quotes by the day of the week their respective articles were posted on and computed the avarage profanity score of each group. Surprise, surprise - Monday takes the lead with the highest average. [This paper](https://publications.aap.org/pediatrics/article-abstract/128/5/867/30917/Profanity-in-Media-Associated-With-Attitudes-and?redirectedFrom=fulltext "Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression")<sup>[1]</sup> suggests that people become more hostile when exposed to profanity in media. Maybe that's the reason why people are so grumpy on Mondays, except, you know, having to go to work again.
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/9.embed?showlink=false"></iframe>
 
 ## 2. Individual speakers
-We will now turn our attention to individual speaker analysis. 
-
-<!-- ### Drop the mic -->
-<!-- ### The return of the MCs -->
-### The return of the MCs 
-Taking a look at individual speakers with highest average profanity, we can notice that most of them are rappers!
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/19.embed?showlink=false"></iframe>
-We have prepared a simple search engine which allows you to search for your favorite speakers and see their average profanity score. We have only included speakers with more than 5000 quotes so that the average profanity metric remains reasonable. After filtering, there were still over 1000 speakers left so go ahead and search on!
+We will now turn our attention to individual speaker analysis. We have prepared a simple search engine which allows you to search for your favorite speakers and see their average profanity score. We have only included speakers with more than 5000 quotes so that the average profanity metric remains reasonable. After filtering, there were still over 1000 speakers left so go ahead and search on!
 <div>
 <select style="width: 30%;" class="js-example-basic-single" name="state">
 </select>
-<p style="width: 10%; float:right" id="score_label">?</p><p style="float:right">Average score:&nbsp;&nbsp;</p>
+<p style="width: 10%; float:right" id="score_label">?</p><p style="float:right">Average profanity:&nbsp;&nbsp;</p>
 </div>
+<!-- ### Drop the mic -->
+<!-- ### The return of the MCs -->
+### The return of the MCs
+Observing the general distribution of most quoted speakers, we can see some familiar names. The profane quotes observed by Pope Francis were a bit conserning but a deeper analysis shows that they either contain the word 'hell' or are mostly false positives. Taking a look at speakers with highest average profanity, we can notice that most of them are rappers. The MCs are back! <br>
+A quick trip back to the stripper club: most stripper quotes belong to Cardi B, who pursued a career as an exotic dancer before rising to fame as a rapper. This further explains the domination of strippers over rappers as a most vulgar occupation.
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/19.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/216.embed?showlink=false"></iframe> -->
-### Donald
 
+### Orange Case Study
+The most quoted speaker in Quotebank is the former American president Donald Trump. According to a popular linguistic study<sup>[?]</sup>, Trump speaks at a fourth-grade level. Considering this and the amount of Trump quotes we had at our disposal, we couldn't miss the opportunity to analyse how dirty Donald's quotes are. 
 <!-- # 4. Which speakers are most likely to use obscene language? -->
 <!-- ## Are there any differences with respect to occupation, gender, or age of the speaker? -->
 
