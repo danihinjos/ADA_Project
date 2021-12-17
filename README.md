@@ -117,16 +117,22 @@ A quick trip back to the stripper club: most stripper quotes belong to Cardi B, 
 
 ### Orange Case Study
 The most quoted speaker in Quotebank is the former American president Donald Trump. According to a popular linguistic study<sup>[?]</sup>, Trump speaks at a fourth-grade level. Considering this and the amount of Trump quotes we had at our disposal, we couldn't miss the opportunity to analyse how dirty Donald's quotes are. 
+
+## 3. Media outlets
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/34.embed?showlink=false"></iframe>
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/38.embed?showlink=false"></iframe>
+### References
+Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression. Pediatrics November 2011; 128 (5): 867–872. 10.1542/peds.2011-1062
+
+
 <!-- # 4. Which speakers are most likely to use obscene language? -->
 <!-- ## Are there any differences with respect to occupation, gender, or age of the speaker? -->
+
 
 <!-- # 5. Which media sources feature vulgar speakers? -->
 <!-- ## How does it relate to the nature of the sources and their role -->
 
 <!-- # 6. What is the relationship between profanity and sentiment of the quotes? -->
-
-### References
-Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression. Pediatrics November 2011; 128 (5): 867–872. 10.1542/peds.2011-1062
 
 <br>
 <footer style="background-color: #d32f2f">
