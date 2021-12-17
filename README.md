@@ -44,7 +44,7 @@ The perception and use of profanity depend on the situation and differ from pers
 <!-- <div id="container" style="min-width: 310px; height: 400px; margin: auto"></div> -->
 <!-- Furthermore, syntactically identical words can be considered obscene in one language but have a completely different meaning in another language. -->
 ## What is Profanity?
-The dictionary offers a simple definition of the word 'profanity': Profanity is a type of language that includes dirty words and ideas.
+The dictionary offers a simple definition of the word 'profanity': a type of language that includes dirty words and ideas.
 
 The naive approach in detecting profanity is to use a hard-coded list of curse words. However, there are glaring issues with this approach as we are restricted by the words in our list and are completely ignoring the context surounding these words. 
 <!-- Futhermore, the same word can be considered obscene in one language but have a completely different meaning in another language. -->
