@@ -14903,8 +14903,8 @@ figcaption {
     max-width: 100% !important
 }
 
-.header-img {
-    background-image: url("images/newheader.png");
-    width: 100%;
-    height: 650px;
+
+
+img {
+  padding: 20px;
 }
