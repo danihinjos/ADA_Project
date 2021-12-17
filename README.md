@@ -62,9 +62,13 @@ Let's take a deep dive into this small subset of Quotebank.
 ### People's Choice Award for favorite curse word goes to...
 <details>
   <summary>Click to reveal</summary>
-  Fuck<br>
-  Well, what did you expect?
+  <b>Hell</b><br>
+  <!-- I bet you expected the F word... -->
+  Not quite what you expected huh? The word 'Hell' has x occurences in Quotebank, meaning it appears in around y% of all profane quotes which our model identified. The image bellow demonstrates all major obscene words found in Quotebank, where word's boldness indicates it's occurence frequency. Notice that less obscene words are more frequent which is understandable as they are more likely to be published in media articles. 
+  <br>
+ <img  src="data/word_map.jpeg" alt="Obscene words">
 </details>
+
 
 ### Does your mum or dad curse more? 
 It seems that around 72% of all profane quotes we found were spoken by a male speaker. On the other hand, taking into consideration the relative frequenices of profane quotes with respect to all quotes spoken by a specific gender, it seems that female speakers are more prone to using profane language. Our analysis also shows that media articles are heavily biased towards featuring male speakers. Feminists are going to be all over this...
@@ -73,7 +77,7 @@ It seems that around 72% of all profane quotes we found were spoken by a male sp
 <iframe width="330" height="400" frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/213.embed?showlink=false"></iframe>
 </div>
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe> -->
-This plot doesn't really do justice to other genders so let's take a look at the average profanity for each gender.
+These donut plots doesn't really do justice to other genders so let's take a look at the average profanity for each gender.
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed"></iframe> -->
 Wow! The genderfluids are killing it.<br><br>
@@ -96,17 +100,20 @@ We have grouped quotes by the day of the week their respective articles were pos
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/9.embed?showlink=false"></iframe>
 
 ## 2. Individual speakers
-<div>
-<select style="width: 30%;" class="js-example-basic-single" name="state">
-</select>
-<p style="width: 10%; float:right" id="score_label">score</p><p style="float:right">Average score:&nbsp;&nbsp;</p>
-</div>
+We will now turn our attention to individual speaker analysis. 
 
 <!-- ### Drop the mic -->
 <!-- ### The return of the MCs -->
-### The MCs are back
+### The return of the MCs 
 Taking a look at individual speakers with highest average profanity, we can notice that most of them are rappers!
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/216.embed?showlink=false"></iframe>
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/19.embed?showlink=false"></iframe>
+We have prepared a simple search engine which allows you to search for your favorite speakers and see their average profanity score. We have only included speakers with more than 5000 quotes so that the average profanity metric remains reasonable. After filtering, there were still over 1000 speakers left so go ahead and search on!
+<div>
+<select style="width: 30%;" class="js-example-basic-single" name="state">
+</select>
+<p style="width: 10%; float:right" id="score_label">?</p><p style="float:right">Average score:&nbsp;&nbsp;</p>
+</div>
+<!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/216.embed?showlink=false"></iframe> -->
 ### Donald
 
 <!-- # 4. Which speakers are most likely to use obscene language? -->
