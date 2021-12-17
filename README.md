@@ -99,21 +99,25 @@ It seems that around 72% of all profane quotes we found were spoken by a male sp
 <iframe width="330" height="400" frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/213.embed?showlink=false"></iframe>
 </div>
 <br><br>
+
+
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe> -->
-These donut plots doesn't really do justice to other genders so let's take a look at the average profanity for each gender.
+These donut plots doesn't really do justice to other genders beyond the binary ones, so let's take a look at the average profanity for some of the gender identities registered in the dataset.
+<br>
+
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed"></iframe> -->
 Wow! The genderfluids are killing it.<br><br>
 On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies<sup>[1]</sup> suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language. We decided to further explore this hypothesis by computing average aggresion scores for each gender category. 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/46.embed?showlink=false"></iframe>
-One can argue that this plot supports our hypothesis, but due to large confidence intervals, we can not make any significant claims. We still encourage readers to be nice to people associated with uncommon genders.
+One can argue that this plot supports our hypothesis, but due to large confidence intervals, we can not make any significant claims. We still encourage readers to respect and be nice to people associated with uncommon genders.
 <!-- TODO: link paper -->
 <!-- Back to mum and dad, the plot also suggests that females use more profane language than males. Ladies you gotta chill. -->
 
 <!-- ### Strippers vs. Rappers -->
 <!-- MCs vs Strippers -->
 ### The Mic or the Stripping pole
-If we had to guess we would say that quotes by rappers would contain most obscene language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
+If we had to guess, we would say that quotes by rappers would contain the most obscene language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
 > "quote"
 That being said, MCs are not that far behind strippers. Intuition, check!
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/46.embed?showlink=false"></iframe>
