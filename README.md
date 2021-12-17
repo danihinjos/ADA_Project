@@ -93,10 +93,12 @@ Let's take a deep dive into this small subset of Quotebank.
 
 ### Does your mum or dad curse more? 
 It seems that around 72% of all profane quotes we found were spoken by a male speaker. On the other hand, taking into consideration the relative frequenices of profane quotes with respect to all quotes spoken by a specific gender, it seems that female speakers are more prone to using profane language. Our analysis also shows that media articles are heavily biased towards featuring male speakers.
+<br>
 <div align="center">
 <iframe width="330" height="400" frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/211.embed?showlink=false"></iframe>
 <iframe width="330" height="400" frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/213.embed?showlink=false"></iframe>
 </div>
+<br><br>
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe> -->
 These donut plots doesn't really do justice to other genders so let's take a look at the average profanity for each gender.
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed?showlink=false"></iframe>
