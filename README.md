@@ -61,7 +61,7 @@ Identifying profanity in text has proved to be a rather difficult task which, if
 ## 1. Profanity in Quotebank
 People curse a lot, just not in media.
 
-Quotebank is a dataset of ~110M quotes collected from different media articles. By observing the distribution of the obscene quotes identified by our models we can already reach some conclusions:
+Quotebank is a dataset of ~110M quotes collected from different media articles. By observing the distribution of the obscene quotes identified by our models we can already reach our first conclusion:
 > Obscene quotes are not common in media articles.
 <div align="center">
 <iframe width="266" height="400"  frameborder="0" scrolling="no"  align="left" src="//plotly.com/~k_beans/84.embed?showlink=false" ></iframe>
@@ -70,7 +70,7 @@ Quotebank is a dataset of ~110M quotes collected from different media articles. 
 </div>
 
 <br>
-The frequency distribution of quotes through time is mostly uniform. The sharp drops are caused by missing data, and the slight drop on March and April of 2020 can be explained by Covid circumstances.
+Considering the temporal factor, the frequency distribution of quotes through time is mostly uniform. The sharp drops are caused by missing data, and the slight drop on March and April of 2020 can be explained by COVID-19 circumstances.
 
 <iframe width="900" height="400" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/5.embed?showlink=false"></iframe>
 
@@ -84,7 +84,6 @@ Let's take a deep dive into this small subset of Quotebank.
 <details>
   <summary>Click to reveal</summary>
   <b>Hell</b><br>
-  <!-- I bet you expected the F word... -->
   Not quite what you expected huh? The word 'Hell' has around 130K occurences in Quotebank, meaning it appears in around 11% of all profane quotes which our model identified. The image bellow demonstrates all major obscene words found in Quotebank, where word's boldness indicates it's occurence frequency. Notice that less obscene words are more frequent which is understandable as they are more likely to be published in media articles. 
   <br><br>
  <img  style="display: block; margin-left: auto; margin-right: auto;" src="data/word_map.jpeg" alt="Obscene words">
@@ -93,25 +92,31 @@ Let's take a deep dive into this small subset of Quotebank.
 
 ### Does your mum or dad curse more? 
 It seems that around 72% of all profane quotes we found were spoken by a male speaker. On the other hand, taking into consideration the relative frequenices of profane quotes with respect to all quotes spoken by a specific gender, it seems that female speakers are more prone to using profane language. Our analysis also shows that media articles are heavily biased towards featuring male speakers.
+<br>
 <div align="center">
 <iframe width="330" height="400" frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/211.embed?showlink=false"></iframe>
 <iframe width="330" height="400" frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/213.embed?showlink=false"></iframe>
 </div>
+<br><br>
+
+
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe> -->
-These donut plots doesn't really do justice to other genders so let's take a look at the average profanity for each gender.
+These donut plots doesn't really do justice to other genders beyond the binary ones, so let's take a look at the average profanity for some of the gender identities registered in the dataset.
+<br>
+
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed"></iframe> -->
 Wow! The genderfluids are killing it.<br><br>
 On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies<sup>[1]</sup> suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language. We decided to further explore this hypothesis by computing average aggresion scores for each gender category. 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/46.embed?showlink=false"></iframe>
-One can argue that this plot supports our hypothesis, but due to large confidence intervals, we can not make any significant claims. We still encourage readers to be nice to people associated with uncommon genders.
+One can argue that this plot supports our hypothesis, but due to large confidence intervals, we can not make any significant claims. We still encourage readers to respect and be nice to people associated with uncommon genders.
 <!-- TODO: link paper -->
 <!-- Back to mum and dad, the plot also suggests that females use more profane language than males. Ladies you gotta chill. -->
 
 <!-- ### Strippers vs. Rappers -->
 <!-- MCs vs Strippers -->
 ### The Mic or the Stripping pole
-If we had to guess we would say that quotes by rappers would contain most obscene language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
+If we had to guess, we would say that quotes by rappers would contain the most obscene language. On the contrary, our analysis shows that the most vulgar occupation of Quotebank speakers is stripping. Wait... strippers get quoted in media articles? Apperently they do, we have found over 23000 quotes spoken by strippers and this is our favorite one: 
 > "quote"
 That being said, MCs are not that far behind strippers. Intuition, check!
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/46.embed?showlink=false"></iframe>
@@ -178,6 +183,16 @@ We can summarize our data story through the following points:
 ### References
 Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression. Pediatrics November 2011; 128 (5): 867–872. 10.1542/peds.2011-1062
 
+
+<!-- # 4. Which speakers are most likely to use obscene language? -->
+<!-- ## Are there any differences with respect to occupation, gender, or age of the speaker? -->
+
+
+<!-- # 5. Which media sources feature vulgar speakers? -->
+<!-- ## How does it relate to the nature of the sources and their role -->
+
+<!-- # 6. What is the relationship between profanity and sentiment of the quotes? -->
+
 <br>
 <footer style="background-color: #d32f2f">
     <div class="container">
@@ -189,9 +204,9 @@ Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in
                     <br>
                     <button id="ada"><b>ADA</b></button>, EPFL
                     <br>
-                    <a href="https://github.com/epfl-ada/ada-2021-project-k-beans"><b>GitHub Repository</b></a>
+                    <a href="https://github.com/ArthurVignon/ADA_project_RADI"><b>GitHub Repository</b></a>
                     •
-                    <a href="https://github.com/danihinjos/ADA_Project"> <b> Website Repository </b> </a>
+                    <a href="https://github.com/alcarinn/alcarinn.github.io"> <b> Website Repository </b> </a>
                     <br>
                     <b>Theme </b>
                     <a href="https://github.com/chibicode/duo">duo</a>
