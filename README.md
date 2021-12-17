@@ -140,9 +140,6 @@ A quick trip back to the strip club: most stripper quotes belong to Cardi B, who
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/19.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/216.embed?showlink=false"></iframe> -->
 
-### Orange case study
-The most quoted speaker in Quotebank is the former American president Donald Trump. According to a popular linguistic study<sup>[?]</sup>, Trump speaks at a fourth-grade level. Considering this and the amount of Trump quotes we had at our disposal, we couldn't miss the opportunity to analyse how dirty Donald's quotes are.
-
 ## 3. Media outlets
 Media outlets play a very significant role in keeping everyone updated about the various events around the world. Before jumping into the general analysis of profanity in media outlets, please take a moment to use the search bar down below to find your favorite media outlet. Then proceed to the general analysis and compare your media outlet with the rest.
 <div>
