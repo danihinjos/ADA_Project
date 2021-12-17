@@ -1,3 +1,21 @@
+<head>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script> 
+$.getJSON('data/search_data.json', function( data ) {
+   $(".js-example-basic-single").select2({
+        data: data
+    });
+});
+
+$(document).ready(function() {
+    $('.js-example-basic-single').select2().on("select2:select", function(e) { 
+    document.getElementById("score_label").textContent = this.value;
+    });
+});
+</script>
+</head>
 
 ## Abstract
 The perception and use of profanity depend on the situation and differ from person to person. While swearing is relatively common and sometimes even welcomed in a relaxed environment, the use of such language is mostly frowned upon in a workplace or public spaces. This is why we are not likely to encounter it while reading the news. Still, heated debates and unexpected events can inspire the appearance of obscene language even in more formal settings. To better understand the circumstances in which profanity appears in media, we will explore Quotebank, a large and heterogeneous dataset of quotes extracted from media articles. We will analyze the distribution of obscene quotations through time and examine their presence with respect to the attributes of the speakers who uttered them and the media outlets who featured those speakers.
@@ -72,11 +90,20 @@ That being said, MCs are not that far behind strippers. Intuition, check!
 We have grouped quotes by the day of the week their respective articles were posted on and computed the avarage profanity score of each group. Surprise, surprise - Monday takes the lead with the highest average. [This paper](https://publications.aap.org/pediatrics/article-abstract/128/5/867/30917/Profanity-in-Media-Associated-With-Attitudes-and?redirectedFrom=fulltext "Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression") suggests that people become more hostile when exposed to profanity in media. Maybe that's the reason why people are so grumpy on Mondays, except, you know, having to go to work again.
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/9.embed?showlink=false"></iframe>
 
+## 2. Individual speakers
+<div>
+<select style="width: 50%; float:center" class="js-example-basic-single" name="state">
+</select>
+<p style="float:right" id="score_label">score</p>
+</div>
 
 <!-- ### Drop the mic -->
+<!-- ### The return of the MCs -->
 ### The MCs are back
 Taking a look at individual speakers with highest average profanity, we can notice that most of them are rappers!
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/42.embed?showlink=false"></iframe>
+
+### Donald
 
 <!-- # 4. Which speakers are most likely to use obscene language? -->
 <!-- ## Are there any differences with respect to occupation, gender, or age of the speaker? -->
