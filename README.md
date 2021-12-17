@@ -9,10 +9,29 @@ $.getJSON('data/search_data.json', function( data ) {
     });
 });
 
+
+$.getJSON('data/domain_search.json', function( data ) {
+   $(".js-example-basic-single-media").select2({
+        data: data
+    });
+});
+
 $(document).ready(function() {
     $('.js-example-basic-single').select2().on("select2:select", function(e) { 
-    document.getElementById("score_label").textContent = this.value;
+    document.getElementById("score_label").textContent = 'Average quote profanity:  ' + this.value;
     });
+    
+    $('.js-example-basic-single-media').select2().on("select2:select", function(e) { 
+    var val = this.value.split(/\s+/);
+    document.getElementById("media_avg_prof").textContent = 'Average quote profanity:    ' + val[0];
+    document.getElementById("media_censored").textContent = 'Number of censored quotes:  ' + val[1];
+    document.getElementById("media_profane").textContent =  'Number of profane quotes:   ' + val[2];
+    document.getElementById("media_total").textContent =    'Total number of quotes:     ' + val[3];
+    });
+});
+
+
+$(document).ready(function() {
 });
 </script>
 </head>
@@ -81,7 +100,7 @@ These donut plots doesn't really do justice to other genders so let's take a loo
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed"></iframe> -->
 Wow! The genderfluids are killing it.<br><br>
-On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies<sup>[1]</sup> suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language. We decided to further explore this hypothesis by computing average aggresion scores for each gender category. Unfortunately, due to wide
+On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies<sup>[1]</sup> suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language. We decided to further explore this hypothesis by computing average aggresion scores for each gender category. 
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/46.embed"></iframe>
 One can argue that this plot supports our hypothesis, but due to large confidence intervals, we can not make any significant claims. We still encourage readers to be nice to people associated with uncommon genders.
 <!-- TODO: link paper -->
@@ -103,15 +122,19 @@ We have grouped quotes by the day of the week their respective articles were pos
 ## 2. Individual speakers
 We will now turn our attention to individual speaker analysis. We have prepared a simple search engine which allows you to search for your favorite speakers and see their average profanity score. We have only included speakers with more than 5000 quotes so that the average profanity metric remains reasonable. After filtering, there were still over 1000 speakers left so go ahead and search on!
 <div>
-<select style="width: 30%;" class="js-example-basic-single" name="state">
+<select style="width: 30%;" class="js-example-basic-single" name="speaker">
 </select>
-<p style="width: 10%; float:right" id="score_label">?</p><p style="float:right">Average profanity:&nbsp;&nbsp;</p>
+<code>
+<br>
+<div style="margin-top: 10px; white-space: pre-wrap;" id="score_label"></div>
+<br>
+</code>
 </div>
 <!-- ### Drop the mic -->
 <!-- ### The return of the MCs -->
 ### The return of the MCs
 Observing the general distribution of most quoted speakers, we can see some familiar names. The profane quotes observed by Pope Francis were a bit conserning but a deeper analysis shows that they either contain the word 'hell' or are mostly false positives. Taking a look at speakers with highest average profanity, we can notice that most of them are rappers. The MCs are back! <br>
-A quick trip back to the stripper club: most stripper quotes belong to Cardi B, who pursued a career as an exotic dancer before rising to fame as a rapper. This further explains the domination of strippers over rappers as a most vulgar occupation.
+A quick trip back to the strip club: most stripper quotes belong to Cardi B, who pursued a career as an exotic dancer before rising to fame as a rapper. This further explains the domination of strippers over rappers as a most vulgar occupation.
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/19.embed?showlink=false"></iframe>
 <!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/216.embed?showlink=false"></iframe> -->
 
@@ -119,8 +142,27 @@ A quick trip back to the stripper club: most stripper quotes belong to Cardi B, 
 The most quoted speaker in Quotebank is the former American president Donald Trump. According to a popular linguistic study<sup>[?]</sup>, Trump speaks at a fourth-grade level. Considering this and the amount of Trump quotes we had at our disposal, we couldn't miss the opportunity to analyse how dirty Donald's quotes are. 
 
 ## 3. Media outlets
+
+<div>
+<select style="width: 30%;" class="js-example-basic-single-media" name="media">
+</select>
+<code>
+<br>
+<div style="margin-top: 10px; white-space: pre-wrap;" id="media_total"></div>
+<div style="white-space: pre-wrap;" id="media_censored"></div>
+<div style="white-space: pre-wrap;" id="media_profane"></div>
+<div style="white-space: pre-wrap;" id="media_avg_prof"></div>
+<br>
+</code>
+<br>
+</div>
+
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/34.embed?showlink=false"></iframe>
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mculyak/38.embed?showlink=false"></iframe>
+
+## Conclusion
+Quotebank is quite a heterogeneus dataset so there is still room for a lot of research. We have presented our most interesting insights.
+
 ### References
 Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in Media Associated With Attitudes and Behavior Regarding Profanity Use and Aggression. Pediatrics November 2011; 128 (5): 867–872. 10.1542/peds.2011-1062
 
