@@ -197,9 +197,9 @@ Sarah M. Coyne, Laura A. Stockdale, David A. Nelson, Ashley Fraser; Profanity in
                     <br>
                     <button id="ada"><b>ADA</b></button>, EPFL
                     <br>
-                    <a href="https://github.com/ArthurVignon/ADA_project_RADI"><b>GitHub Repository</b></a>
+                    <a href="https://github.com/epfl-ada/ada-2021-project-k-beans"><b>GitHub Repository</b></a>
                     •
-                    <a href="https://github.com/alcarinn/alcarinn.github.io"> <b> Website Repository </b> </a>
+                    <a href="https://github.com/danihinjos/ADA_Project"> <b> Website Repository </b> </a>
                     <br>
                     <b>Theme </b>
                     <a href="https://github.com/chibicode/duo">duo</a>
