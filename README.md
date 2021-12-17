@@ -56,7 +56,7 @@ Would you classify this statement as profanity?
 It seems that Twitter would, as the user who posted it was banned from the plaftorm, even though a quick look at the wikipedia article for the [Great Tit](https://en.wikipedia.org/wiki/Great_tit "Great Tit") can easily explain the meaning of this statement.
 
 
-Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem "Scunthorpe problem"). Therefore, we decided to use a pre-trained machine learning model in order to better identify obscene quotes in our dataset.
+Identifying profanity in text has proved to be a rather difficult task which, if not done carefully, can often result in a high rate of false positives, as demonstrated by the [Scunthorpe problem]( https://en.wikipedia.org/wiki/Scunthorpe_problem "Scunthorpe problem"). That's why, in combination with simple word list based methods, we used a pre-trained machine learning model to identify profane quotations, and regular regular expressions to identify censorship.
 
 ## 1. Profanity in Quotebank
 People curse a lot, just not in media.
@@ -86,7 +86,7 @@ Let's take a deep dive into this small subset of Quotebank.
   <b>Hell</b><br>
   <!-- I bet you expected the F word... -->
   Not quite what you expected huh? The word 'Hell' has around 130K occurences in Quotebank, meaning it appears in around 11% of all profane quotes which our model identified. The image bellow demonstrates all major obscene words found in Quotebank, where word's boldness indicates it's occurence frequency. Notice that less obscene words are more frequent which is understandable as they are more likely to be published in media articles. 
-  <br><br> //131k
+  <br><br>
  <img  style="display: block; margin-left: auto; margin-right: auto;" src="data/word_map.jpeg" alt="Obscene words">
 </details>
 
