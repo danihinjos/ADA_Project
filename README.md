@@ -68,9 +68,14 @@ Let's take a deep dive into this small subset of Quotebank.
 
 ### Does your mum or dad curse more? 
 It seems that around 72% of all profane quotes we found were spoken by a male speaker. On the other hand, taking into consideration the relative frequenices of profane quotes with respect to all quotes spoken by a specific gender, it seems that female speakers are more prone to using profane language. Our analysis also shows that media articles are heavily biased towards featuring male speakers. Feminists are going to be all over this...
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe>
+<div align="center">
+<iframe width="330" height="400" frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/211.embed?showlink=false"></iframe>
+<iframe width="330" height="400" frameborder="0" scrolling="no" align="center" src="//plotly.com/~k_beans/213.embed?showlink=false"></iframe>
+</div>
+<!-- <iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/52.embed?showlink=false"></iframe> -->
 This plot doesn't really do justice to other genders so let's take a look at the average profanity for each gender.
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/48.embed?showlink=false"></iframe>
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed?showlink=false"></iframe>
+<!-- <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/203.embed"></iframe> -->
 Wow! The genderfluids are killing it.<br><br>
 On the serious note, it seems that speakers associated with more uncommon genders tend to use more profane vocabulary. Psychology studies suggest that the use of profanity is related to aggressive behavior. Our best guess is that people who associate themselves with uncommon genders still don't feel accepted in today's society causing them to be more hostile and therefore more prone to using profane language.
 <!-- TODO: link paper -->
@@ -92,7 +97,7 @@ We have grouped quotes by the day of the week their respective articles were pos
 
 ## 2. Individual speakers
 <div>
-<select style="width: 50%; float:center" class="js-example-basic-single" name="state">
+<select style="width: 30%;" class="js-example-basic-single" name="state">
 </select>
 <p style="width: 10%; float:right" id="score_label">score</p><p style="float:right">Average score:&nbsp;&nbsp;</p>
 </div>
@@ -101,8 +106,7 @@ We have grouped quotes by the day of the week their respective articles were pos
 <!-- ### The return of the MCs -->
 ### The MCs are back
 Taking a look at individual speakers with highest average profanity, we can notice that most of them are rappers!
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/42.embed?showlink=false"></iframe>
-
+<iframe width="900" height="500" frameborder="0" scrolling="no" src="//plotly.com/~k_beans/216.embed?showlink=false"></iframe>
 ### Donald
 
 <!-- # 4. Which speakers are most likely to use obscene language? -->
